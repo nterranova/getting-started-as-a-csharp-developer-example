@@ -10,9 +10,17 @@ namespace CNET1.ConsoleApp.NET7.RecordClasses
 {
     public record class Customer : IPerson
     {
-        public string LastName { get; set; }
-        public int Id { get; set; }
-        public Age Age { get; set; }
-        public string FirstName { get; set; }
+        public Customer()
+        {
+
+        }
+        public Customer(string firstName)
+        {
+            FirstName = firstName;
+        }
+        public string? LastName { get; set; }
+        public int? Id { get; set; }
+        public Age? Age { get; set; }
+        public string? FirstName { get; set; }
     }
 }

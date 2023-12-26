@@ -9,9 +9,9 @@ namespace CNET1.ConsoleApp.NET7.Interfaces
 {
     public interface IPerson
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Id { get; set; }
-        public Age Age { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public int? Id { get; set; }
+        public Age? Age { get; set; }
     }
 }
