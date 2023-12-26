@@ -1,6 +1,6 @@
 ﻿namespace CNET1.ConsoleApp.NET7
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
