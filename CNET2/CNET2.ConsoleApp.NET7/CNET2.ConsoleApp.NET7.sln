@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNET2.ConsoleApp.NET7", "CNET2.ConsoleApp.NET7.csproj", "{AA4BD56C-79A2-445F-ABE7-E9282A73F9FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNET2.ConsoleApp.NET7.Library", "..\CNET2.ConsoleApp.NET7.Library\CNET2.ConsoleApp.NET7.Library.csproj", "{51549AED-8298-47B6-9317-524263A7CB48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4BD56C-79A2-445F-ABE7-E9282A73F9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4BD56C-79A2-445F-ABE7-E9282A73F9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4BD56C-79A2-445F-ABE7-E9282A73F9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4BD56C-79A2-445F-ABE7-E9282A73F9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51549AED-8298-47B6-9317-524263A7CB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51549AED-8298-47B6-9317-524263A7CB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51549AED-8298-47B6-9317-524263A7CB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51549AED-8298-47B6-9317-524263A7CB48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49835C59-4DA6-48A8-8DA2-0EB56BFEC0A1}
+	EndGlobalSection
+EndGlobal
