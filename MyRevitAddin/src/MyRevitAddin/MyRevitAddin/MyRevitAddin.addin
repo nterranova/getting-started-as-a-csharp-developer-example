@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>MyRevitPluginName</Name>
+		<FullClassName>MyRevitAddin.Main</FullClassName>
+		<Text>HelloWorld</Text>
+		<Description>A Example Revit Addin</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>.\MyRevitAddin.dll</Assembly>
+		<AddInId>0ECB2245-0912-4C4E-B513-1E9F626A96F3</AddInId>
+		<VendorId>Corgan-Peter</VendorId>
+		<VendorDescription>www.corgan.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>
